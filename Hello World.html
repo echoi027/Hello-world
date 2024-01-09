@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        body{
+           background-color: rgb(154, 183, 211);
+           margin-top: 20px;
+           margin-right:50px;
+           
+        }
+        h1{
+            color:darkgreen;
+            font-size: 60px;
+        }
+        h2{
+            background-color: white;
+        }
+        .container{
+            color:white;
+            #highlight{
+                color: green; 
+            }
+        }
+        img{
+            width:70%;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>I am Esther Choi, a senior in Industrial Design</h2>
+    <div class="container"> <p>I love <mark>dogs and cats</mark>. (Tbh, love all the animals) One day in my life, I am going to adapt a dog and a cat. I can't srsly wait for that moment! </p></div>
+
+    <p>Are you a <em>cat person or dog person?</em> What is your fav animal?</p>
+    <p><a href="https://www.animalrescueri.org/">Let's go to Animal Rescue Website</a></p>
+    <p>This is a list of my favorite youtube channels related to cute animals. I hope these will make your day!</p>
+    <table>
+        <tbody><tr>
+          <th>Dog</th>
+          <th>Cat</th>
+        </tr>
+        <tr>
+          <td><p><a href="https://www.youtube.com/@user-ef9ex8nj7u">Bichon</a></p></td>
+          <td> <p><a href="https://www.youtube.com/@Bebe8Cats">8 cute cats</a></p></td>
+         
+        </tr>
+        <tr>
+            <td><p><a href="https://www.youtube.com/@huskygirlbooqoo">The cutest Siberian husky</a></p></td>
+            <td><p><a href="https://www.youtube.com/@hahahaYouTube">Cute Wild Cats</a></p></td>
+        </tr>
+            <tr>
+                <td><p><a href="https://www.youtube.com/@shuandtree_">Cuteness overloaded&lt;3 </a></p></td>
+                <td><p><a href="https://www.youtube.com/@hoseobiiiiiii._.0410">&gt;(OvO)&lt;</a></p></td>
+            </tr>
+    
+      </tbody></table>
+   
+    
+   
+    
+    <img src="./Hello World_files/4d2ad50ee1cbfc6ca4b261224ca592fe.jpg" alt="dog">
+    <img src="./Hello World_files/cat.jpg">
+    <img src="./Hello World_files/Η-μελέτη-βρίσκει-τον-καλύτερο-τρόπο-για-να-καλέσετε-μια.jpg">
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
